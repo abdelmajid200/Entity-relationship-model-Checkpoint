@@ -26,10 +26,15 @@ Entity–relationship model:
                                                 ----------------
 Relational model:
 Gymnasium (GymID,Name,Address,PhoneNumber)
+
 Member (MemberID,LastName,FirstName,Address,DateOfBirth,Gender,#GymID)
-Session (SessionID, SportType,Schedule,MaxMembers,#GymID)      
+
+Session (SessionID, SportType,Schedule,MaxMembers,#GymID)  
+
 Coach(CoachID, LastName,FirstName,Age,Specialty)
+
 Registration (#SessionID ,#MemberID)
+
 training(#SessionID,#CoachID)
 
 
