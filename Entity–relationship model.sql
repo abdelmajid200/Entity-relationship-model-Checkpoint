@@ -1,29 +1,8 @@
 # Entity-relationship-model-Checkpoint
 Entity–relationship model:
-          M                                           1
-        |----------------------------------------------|
-----------------         ---------------        ----------------
-|   Gymnasium   |M     1|    Member    |M     M|    Session   |
-|---------------|-------|--------------|-------|--------------|
-| Gym_ID        |       | Member_ID    |       | Session_ID   |
-| Name          |       | Last_Name    |       | Sport_Type   |
-| Address       |       | First_Name   |       | Schedule     |
-| Phone_Number  |       | Address      |       | Max_Members  |
- ---------------        | Date_Of_Birth|       |              |
-                        | Gender       |       ----------------
-                         ---------------               M
-                                                       |
-                                                       |
-                                                       M
-                                                ----------------      
-                                                |    Coach     |   
-                                                |--------------|
-                                                | Coach_ID     |
-                                                | Last_Name    |      
-                                                | First_Name   |       
-                                                | Age          |
-                                                | Specialty    |
-                                                ----------------
+-------------
+https://drive.google.com/file/d/1Y-70ll07XcCL9qJYpa5V69KTg5iNCfe9/view?usp=sharing
+                                           
 ------------------------------------------------------------------------------------------------------------------------------------------------------                                            
 Relational model:
 Gymnasium (GymID,Name,Address,PhoneNumber)
@@ -37,7 +16,8 @@ Coach(CoachID, LastName,FirstName,Age,Specialty)
 Registration (#SessionID ,#MemberID)
 
 training(#SessionID,#CoachID)
-
+ ---------------------------------------------------------------------         
+https://drive.google.com/file/d/1qWVFOJHyKCDrzl8eThu56w9zhwq80jrH/view?usp=sharing
 
 ---------------------------
 CREATE TABLE Gymnasium (
